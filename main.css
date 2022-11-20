@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap");
 * {
   margin: 0;
   padding: 0;
@@ -24,6 +25,7 @@ header {
   -webkit-transition: all 0.5s;
   transition: all 0.5s;
   z-index: 999;
+  height: 10vh;
 }
 
 .header {
@@ -38,13 +40,13 @@ header {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  height: 10vh;
+  height: 100%;
 }
 
 .name {
   font-weight: 700;
   color: #013a60;
-  font-size: 35px;
+  font-size: 30px;
   -webkit-box-flex: 1;
       -ms-flex: 1;
           flex: 1;
@@ -169,7 +171,7 @@ nav {
 .hero {
   height: 100vh;
   width: 100%;
-  background: url(/images/hero_section.png);
+  background: url(./images/hero_section.png);
   background-repeat: no-repeat;
   background-size: cover;
   background-blend-mode: multiply;
@@ -451,7 +453,7 @@ footer .footer .details {
 footer .footer .details h2 {
   font-weight: 700;
   color: #013a60;
-  font-size: 35px;
+  font-size: 30px;
   display: block;
 }
 
